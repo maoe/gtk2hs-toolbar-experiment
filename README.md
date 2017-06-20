@@ -24,7 +24,7 @@ In the code I [enabled the show-arrow attribute](https://github.com/maoe/gtk2hs-
     set toolbar [toolbarShowArrow := True]
 ```
 
-Interestingly if I changed the contents of the `Toolber` from `ToolItem`s to `ToolButton`s for example, I get the overflow menu.
+Interestingly if I changed the contents of the `Toolbar` from `ToolItem`s to `ToolButton`s for example, I get the overflow menu.
 
 Also I tested this with 3 packages: `gtk` for GTK2, `gtk3` for GTK3, and `gi-gtk` for GTK3 with gobject introspection and all of them have the same issue.
 
